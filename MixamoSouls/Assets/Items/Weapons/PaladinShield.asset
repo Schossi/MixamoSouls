@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5552d3b2d8b2b67498c10953e33dc67b, type: 3}
+  m_Name: PaladinShield
+  m_EditorClassIdentifier: 
+  Key: PSH
+  Name: Shield
+  Description: 
+  Image: {fileID: 21300000, guid: b3db6fad3f5b8514eb6ed37092f7fcc2, type: 3}
+  Category: {fileID: 11400000, guid: e5f1bea274734c444a08310677816f72, type: 2}
+  Slot: {fileID: 11400000, guid: af77263b244d25545ad5a8da0958020b, type: 2}
+  Prefab: {fileID: -2819897038220571184, guid: 7d4ff0aac9773a94bb9894da5ed750d9, type: 3}
+  Requirements: []

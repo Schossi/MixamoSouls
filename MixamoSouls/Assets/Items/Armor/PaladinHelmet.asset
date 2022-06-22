@@ -15,7 +15,7 @@ MonoBehaviour:
   Key: PDH
   Name: Helmet
   Description: 
-  Image: {fileID: 21300000, guid: 71ce48d169c91734589421635b4f0208, type: 3}
+  Image: {fileID: 21300000, guid: b87e55c493c9e7446b79eabcf883536b, type: 3}
   Category: {fileID: 11400000, guid: d59531d4a3b99264da0224ba6c0cedd8, type: 2}
   Slot: {fileID: 11400000, guid: 65ea8d46037b75041b06543dc11b69e9, type: 2}
   Prefab: {fileID: 2846199082806773888, guid: b22ef6a80bf9ac3448cd4ef6d9c820d9, type: 3}

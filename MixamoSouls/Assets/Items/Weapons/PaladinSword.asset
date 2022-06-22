@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5552d3b2d8b2b67498c10953e33dc67b, type: 3}
+  m_Name: PaladinSword
+  m_EditorClassIdentifier: 
+  Key: PSW
+  Name: Sword
+  Description: 
+  Image: {fileID: 21300000, guid: fe4cd182848f1d44a83a4220345d8c6a, type: 3}
+  Category: {fileID: 11400000, guid: 76a06f95a23b3a145bffc8cc862c5cb9, type: 2}
+  Slot: {fileID: 11400000, guid: af77263b244d25545ad5a8da0958020b, type: 2}
+  Prefab: {fileID: 8079050200599396923, guid: 4d936363f508e9f4e83381d5a08f3a30, type: 3}
+  Requirements: []
