@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77affc449e240847b51f65b087e3006, type: 3}
+  m_Name: PaladinHelmet
+  m_EditorClassIdentifier: 
+  Key: PDH
+  Name: Helmet
+  Description: 
+  Image: {fileID: 21300000, guid: 71ce48d169c91734589421635b4f0208, type: 3}
+  Category: {fileID: 11400000, guid: d59531d4a3b99264da0224ba6c0cedd8, type: 2}
+  Slot: {fileID: 11400000, guid: 65ea8d46037b75041b06543dc11b69e9, type: 2}
+  Prefab: {fileID: 2846199082806773888, guid: b22ef6a80bf9ac3448cd4ef6d9c820d9, type: 3}
+  StatValues:
+  - Stat: {fileID: 11400000, guid: 55506e898db9647408bc39ab58dc59a4, type: 2}
+    Value: 20
+  - Stat: {fileID: 11400000, guid: 41c37cc45e5be3141a90fffa24391337, type: 2}
+    Value: 5
+  Requirements: []
