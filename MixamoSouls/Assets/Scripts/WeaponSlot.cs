@@ -4,18 +4,18 @@ using UnityEngine;
 public class WeaponSlot : SoulsWeaponSlot
 {
     [Tooltip("will be used to copy the skinning bones to the armor renderer, usually the main character mesh")]
-    public SkinnedMeshRenderer Template;
+    public SkinnedMeshRenderer Renderer;
 
     protected override void equip(SoulsWeaponItem item)
     {
         base.equip(item);
 
-        var skinnedMeshRenderer = Weapon.GetComponent<SkinnedMeshRenderer>();
+        var meshFilter = Weapon.GetComponent<MeshFilter>();
+        var meshRenderer = Weapon.GetComponent<MeshRenderer>();//old souls items have their own renderer
 
-        if (skinnedMeshRenderer)
-        {
-            skinnedMeshRenderer.rootBone = Template.rootBone;
-            skinnedMeshRenderer.bones = Template.bones;
-        }
+        if (meshFilter && !meshRenderer)
+            Renderer.sharedMesh = meshFilter.mesh;
+        else
+            Renderer.sharedMesh = null;
     }
 }
